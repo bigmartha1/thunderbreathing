@@ -1,0 +1,19 @@
+- Update to latest OS @done
+- Install Xcode from app store @done
+- pyenv install 3.9.0 @done
+- Set up pyenv virtualenv 3.9.0 '<name>' @done
+- pyenv activate <name> @done
+- Read catApi docs https://docs.thecatapi.com/ @done
+- Read Flask Api docs https://flask.palletsprojects.com/en/1.1.x/api/ @done
+- Use insomnia to see payload from catApi https://api.thecatapi.com/v1/images/search @done
+- Set up route '/random' to return the cat image url from catApi @done
+- Download docker https://docs.docker.com/docker-for-mac/install/ @done
+- Refresh on conditional statements in python https://realpython.com/python-conditional-statements/ @done
+- In your virtualenv pip install psycopg2 (This will allow us to talk to our database) https://www.psycopg.org/docs/ @done
+- We will be following this documentation for setting up flask with our database(postgres) https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
+
+Notes:
+    - to test locally you would use Insomnia to call the localhost:5000 route
+        - Check your api payload, we want to see "url": "<random cat url>"
+    - Run 'export FLASK_APP=hello.py' in your terminal(bash) so then you can run flask run to start the server
+    - Run 'export FLASK_ENV=development' in your terminal(bash) so that the flask server will always restart on changes
